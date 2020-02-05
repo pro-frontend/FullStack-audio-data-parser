@@ -5,7 +5,7 @@ fs.readFile("data.log", function(err, data) {
   let arr = data.toString(),
     newArr,
     resultArr = [];
-  newArr = arr.split("\r\n");
+  newArr = arr.split("\n");
   newArr.shift();
   newArr.shift();
   newArr.shift();
