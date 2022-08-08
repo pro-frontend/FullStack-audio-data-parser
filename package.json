@@ -1,0 +1,21 @@
+{
+  "name": "dataparser-from-log-to-csv",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://dimagamer777@bitbucket.org/dimagamer777/dataparser-from-log-to-csv-file.git",
+  "author": "dimagamer777 <dimagamer777@bk.ru>",
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier --write *.js",
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.1.0",
+    "prettier": "^1.19.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
