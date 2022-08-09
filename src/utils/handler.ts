@@ -1,1 +1,0 @@
-export const from = (a?: string): void => console.log(a || "from");
