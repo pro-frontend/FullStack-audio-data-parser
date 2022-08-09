@@ -4,11 +4,8 @@ const PORT = 3500;
 
 const server = () => {
 	const server = http.createServer((req, res) => {
-		res.setHeader("Content-type", "application/json");
-		// const data = JSON.stringify(req);
-
-		// res.end(data);
-		res.end("{aaa: aaa}");
+		res.setHeader("Content-type", "plain/text");
+		res.end("Request handled!");
 	});
 
 	server.listen(PORT, "localhost", () => {
