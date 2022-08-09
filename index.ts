@@ -1,4 +1,3 @@
-import { from } from "./src/utils/handler";
+import server from "./src/server";
 
-from();
-from("a");
+server();
