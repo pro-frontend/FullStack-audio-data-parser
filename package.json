@@ -5,10 +5,9 @@
 	"author": "dimagamer777 <dimagamer777@bk.ru>",
 	"license": "MIT",
 	"scripts": {
-		"start": "nodemon ./index.ts",
+		"start": "nodemon ./index.ts 3000",
 		"start:prod": "yarn build && node ./dist/index.js",
-		"build": "tsc",
-		"debug": ""
+		"build": "tsc"
 	},
 	"dependencies": {
 		"chalk": "4.1.2",
